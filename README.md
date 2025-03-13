@@ -35,27 +35,33 @@ Before you begin, ensure you have:
 <br>
 
 #### 🔍 2️⃣ Open a terminal or command prompt and navigate to the extracted folder:  <br>
-cd path/to/extracted-folder
+cd path/to/extracted-folder 
 <br>
+
 
 📁 3️⃣ Create a folder named data inside the extracted folder: <br>
 mkdir data
 <br>
 
+
 ⚙️ 4️⃣ If needed, update the starting URL, start page, and end page in the .env file.
 <br>
+
 
 📦 5️⃣ Install required dependencies (if not installed): <br>
 pip install -r requirements.txt
 <br>
 
+
 🏗️ 6️⃣ Run the scraping script: <br>
 python getdata.py
 <br>
 
+
 📄 7️⃣ Process the extracted HTML: <br>
 python gethtml.py
 <br>
+
 
 🗂️ 8️⃣ Finally, process the extracted data: <br>
 python process.py
