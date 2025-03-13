@@ -35,7 +35,6 @@ Before you begin, ensure you have:
 <br>
 
 #### 🔍 2️⃣ Open a terminal or command prompt and navigate to the extracted folder:  
-```bash
 cd path/to/extracted-folder
 
 
