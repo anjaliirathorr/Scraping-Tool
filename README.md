@@ -31,35 +31,35 @@ Before you begin, ensure you have:
 
 ### 🚀 Steps to Run the Tool  
 
-#### 📂 1️⃣ Extract the files into an empty folder.  
+#### 📂 1️⃣ Extract the files into an empty folder. <br> 
 <br>
 
-#### 🔍 2️⃣ Open a terminal or command prompt and navigate to the extracted folder:  
+#### 🔍 2️⃣ Open a terminal or command prompt and navigate to the extracted folder:  <br>
 cd path/to/extracted-folder
+<br>
 
-
-📁 3️⃣ Create a folder named data inside the extracted folder:
+📁 3️⃣ Create a folder named data inside the extracted folder: <br>
 mkdir data
-
+<br>
 
 ⚙️ 4️⃣ If needed, update the starting URL, start page, and end page in the .env file.
+<br>
 
-
-📦 5️⃣ Install required dependencies (if not installed):
+📦 5️⃣ Install required dependencies (if not installed): <br>
 pip install -r requirements.txt
+<br>
 
-
-🏗️ 6️⃣ Run the scraping script:
+🏗️ 6️⃣ Run the scraping script: <br>
 python getdata.py
+<br>
 
-
-📄 7️⃣ Process the extracted HTML:
+📄 7️⃣ Process the extracted HTML: <br>
 python gethtml.py
+<br>
 
-
-🗂️ 8️⃣ Finally, process the extracted data:
+🗂️ 8️⃣ Finally, process the extracted data: <br>
 python process.py
-
+<br>
 
 
 
