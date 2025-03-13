@@ -1,6 +1,6 @@
 # Scrapping-Tool
 
-# 🚀 Web Scraping Tool  
+#  Web Scraping Tool  
 
 A simple yet powerful **Web Scraping Tool** designed to extract data from websites **without relying on third-party APIs**.  
 This reduces dependencies and provides greater flexibility for data extraction, automation, and analysis.  
@@ -8,7 +8,7 @@ This reduces dependencies and provides greater flexibility for data extraction, 
 
 ---
 
-## 🔥 Features  
+##  Features  
 
 ✅ **No Dependency on Third-Party APIs** – Directly extracts data from web pages.  
 ✅ **Automated Data Extraction** – Scrapes and processes website content efficiently.  
