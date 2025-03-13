@@ -1,55 +1,60 @@
 # Scrapping-Tool
 
-Overview
+# 🚀 Web Scraping Tool  
 
-This Scraping Tool is designed to extract data from websites without relying on third-party APIs, reducing dependencies and providing greater flexibility. It allows users to scrape, process, and extract relevant data efficiently.
+A simple yet powerful **Web Scraping Tool** designed to extract data from websites **without relying on third-party APIs**.  
+This reduces dependencies and provides greater flexibility for data extraction, automation, and analysis.  
+<br>
 
-Features
+---
 
-Removes dependency on third-party APIs
+## 🔥 Features  
 
-Automates data extraction from web pages
+✅ **No Dependency on Third-Party APIs** – Directly extracts data from web pages.  
+✅ **Automated Data Extraction** – Scrapes and processes website content efficiently.  
+✅ **Customizable Parameters** – Configure URLs, page ranges, and scraping logic.  
+✅ **HTML Processing** – Extracts structured data from raw HTML.  
+<br>
 
-Allows customization of scraping parameters
+---
 
-Processes raw HTML to extract required data
+## 🛠️ Installation & Usage  
 
-Installation & Usage
+### 📌 Prerequisites  
 
-Prerequisites
+Before you begin, ensure you have:  
+- **Python installed** on your system (Download: [Python.org](https://www.python.org))  
+- **Required Python libraries installed** (if not installed, instructions are below).  
+<br>
 
-Python installed on your system (if not installed, download from Python.org)
+---
 
-Steps to Run the Tool
+### 🚀 Steps to Run the Tool  
 
-Extract the files into an empty folder.
+#### 📂 1️⃣ Extract the files into an empty folder.  
+<br>
 
-Install Python if not already installed.
+#### 🔍 2️⃣ Open a terminal or command prompt and navigate to the extracted folder:  
+```bash
+cd path/to/extracted-folder
 
-Open Command Prompt.
+<br>
+📁 3️⃣ Create a folder named data inside the extracted folder:
+mkdir data
+<br>
+⚙️ 4️⃣ If needed, update the starting URL, start page, and end page in the .env file.
+<br>
+📦 5️⃣ Install required dependencies (if not installed):
+pip install -r requirements.txt
+<br>
+🏗️ 6️⃣ Run the scraping script:
+python getdata.py
+<br>
+📄 7️⃣ Process the extracted HTML:
+python gethtml.py
+<br>
+🗂️ 8️⃣ Finally, process the extracted data:
+python process.py
+<br>
 
-Navigate to the extracted folder using: 
 
-cd path/to/extracted-folder  
-
-Create a folder named data inside the extracted folder:
-
-mkdir data  
-
-If needed, update starting URL, start page, and end page in the .env file.
-
-Run the scraping script:
-
-python getdata.py  
-
-Once the above script finishes running, execute:
-
-python gethtml.py  
-
-After running the above command, process the extracted data with:
-
-python process.py  
-
-Contribution & Support
-
-Feel free to contribute or report any issues by raising a ticket in the repository.
