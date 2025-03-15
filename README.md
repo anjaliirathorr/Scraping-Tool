@@ -1,5 +1,3 @@
-# Scrapping-Tool
-
 #  Web Scraping Tool  
 
 A simple yet powerful **Web Scraping Tool** designed to extract data from websites **without relying on third-party APIs**.  
